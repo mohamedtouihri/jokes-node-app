@@ -20,9 +20,9 @@ app.use('/api/auth', require('./routes/auth.route'));
 app.use('/api/jokes', require('./routes/joke.route'));
 app.use('/api/me', require('./routes/users.route'));
 
-// Connect to MongoDB
-mongoose
-  .connect('mongodb+srv://Admin:f4REF8kkbILhW9Sa@cluster0.tcbpycj.mongodb.net/', {
+// Connect to MongoDB 
+mongoose 
+  .connect('mongodb+srv://admin:admin@cluster0.51f92ku.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
